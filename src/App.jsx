@@ -28,7 +28,7 @@ export default function App() {
   }
 
   const Broken = () => {
-    lampRef.current.src = lampadaQuebrada
+    setLampOff(lampRef.current.src = lampadaQuebrada)
   }
 
   const Off = () => {
